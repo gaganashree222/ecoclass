@@ -1,0 +1,32 @@
+import { EnergyRecord } from '../types';
+
+export const initialDataset: EnergyRecord[] = [
+  { day: 1, classroom: "C101", fans: 4, lights: 6, minutes: 30, sourceType: "simulated" },
+  { day: 1, classroom: "C102", fans: 3, lights: 4, minutes: 20, sourceType: "simulated" },
+  { day: 1, classroom: "C103", fans: 4, lights: 3, minutes: 25, sourceType: "simulated" },
+  { day: 1, classroom: "C104", fans: 2, lights: 6, minutes: 15, sourceType: "simulated" },
+  { day: 2, classroom: "C101", fans: 3, lights: 5, minutes: 20, sourceType: "simulated" },
+  { day: 2, classroom: "C102", fans: 4, lights: 6, minutes: 30, sourceType: "simulated" },
+  { day: 2, classroom: "C103", fans: 2, lights: 4, minutes: 15, sourceType: "simulated" },
+  { day: 2, classroom: "C104", fans: 4, lights: 5, minutes: 25, sourceType: "simulated" },
+  { day: 3, classroom: "C101", fans: 4, lights: 4, minutes: 25, sourceType: "simulated" },
+  { day: 3, classroom: "C102", fans: 2, lights: 6, minutes: 20, sourceType: "simulated" },
+  { day: 3, classroom: "C103", fans: 3, lights: 5, minutes: 30, sourceType: "simulated" },
+  { day: 3, classroom: "C104", fans: 4, lights: 3, minutes: 20, sourceType: "simulated" },
+  { day: 4, classroom: "C101", fans: 3, lights: 6, minutes: 30, sourceType: "simulated" },
+  { day: 4, classroom: "C102", fans: 4, lights: 5, minutes: 25, sourceType: "simulated" },
+  { day: 4, classroom: "C103", fans: 2, lights: 3, minutes: 15, sourceType: "simulated" },
+  { day: 4, classroom: "C104", fans: 3, lights: 6, minutes: 35, sourceType: "simulated" },
+  { day: 5, classroom: "C101", fans: 4, lights: 6, minutes: 35, sourceType: "simulated" },
+  { day: 5, classroom: "C102", fans: 3, lights: 3, minutes: 20, sourceType: "simulated" },
+  { day: 5, classroom: "C103", fans: 4, lights: 5, minutes: 30, sourceType: "simulated" },
+  { day: 5, classroom: "C104", fans: 2, lights: 4, minutes: 25, sourceType: "simulated" },
+  { day: 6, classroom: "C101", fans: 2, lights: 5, minutes: 15, sourceType: "simulated" },
+  { day: 6, classroom: "C102", fans: 4, lights: 4, minutes: 20, sourceType: "simulated" },
+  { day: 6, classroom: "C103", fans: 3, lights: 6, minutes: 25, sourceType: "simulated" },
+  { day: 6, classroom: "C104", fans: 4, lights: 6, minutes: 30, sourceType: "simulated" },
+  { day: 7, classroom: "C101", fans: 4, lights: 5, minutes: 30, sourceType: "simulated" },
+  { day: 7, classroom: "C102", fans: 3, lights: 6, minutes: 25, sourceType: "simulated" },
+  { day: 7, classroom: "C103", fans: 4, lights: 4, minutes: 20, sourceType: "simulated" },
+  { day: 7, classroom: "C104", fans: 3, lights: 5, minutes: 20, sourceType: "simulated" }
+];
