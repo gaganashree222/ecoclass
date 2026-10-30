@@ -17,15 +17,9 @@ export const SimulationBanner: React.FC<SimulationBannerProps> = ({ isModified =
             <span className="font-bold tracking-wide uppercase text-amber-800 text-[11px] sm:text-xs bg-amber-200/70 px-2 py-0.5 rounded">
               ABL Academic Prototype Notice
             </span>
-            <span className="font-semibold text-amber-950">
-              SIMULATED DATA FOR ABL DEMONSTRATION
-            </span>
+            
           </div>
-          <p className="mt-1 text-amber-800/90 leading-relaxed">
-            All observation logs and appliance operating hours represent a simulated 7-day model at 
-            <strong> Siddaganga Institute of Technology (SIT), Tumakuru</strong> for Activity-Based Learning (ABL) pedagogical demonstration. 
-            These are not certified institutional sensor measurements. Calculations demonstrate the methodology of converting unnecessary appliance runtime into electrical wastage, carbon dioxide emissions, and operational cost savings.
-          </p>
+          
         </div>
       </div>
     </div>
